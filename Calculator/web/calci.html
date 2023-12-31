@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        h1{
+            color: rgb(13, 46, 39);
+        }
+        #cc {
+            color: rgb(13, 46, 39);
+        }
+
+        .bb {
+            color: darkkhaki;
+            background: rgb(22, 59, 51);
+        }
+
+        body {
+            background-color: cadetblue;
+           
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>WELCOME TO MY CALCULATOR</h1><br><br>
+    <form action="Cal" method="post" name="calci" id="cc" >
+        <h3>Enter number 1</h3>
+        <input type="text" placeholder="Enter Number Here" name="a"><br><br>
+        <h3>Enter number 2</h3>
+        <input type="text" placeholder="Enter Number Here" name="b"><br><br>
+
+
+        <p align ="justify">
+        ADDITION       :  <input type="radio" value="+" name="oper" class="bb"><br>
+        SUBTRACTION    : <input type="radio" value="-" name="oper" class="bb"><br>
+        MULTIPLICATION : <input type="radio" value="*" name="oper" class="bb"><br>
+        DIVISION       :  <input type="radio" value="/" name="oper" class="bb"><br>
+        REMINDER       :<input type="radio" value="%" name="oper" class="bb"><br>
+        </p>
+        <br><br>
+        <input type="submit" value="Calculate" class="bb">
+        <input type="reset" value="Clear" class="bb">
+        
+    </form>
+</body>
+
+</html>
